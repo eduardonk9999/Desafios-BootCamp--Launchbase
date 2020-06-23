@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width= , initial-scale=1.0">
   <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <title>Rocketseat</title>
 </head>
@@ -12,7 +13,7 @@
     <div class="wrapper wrapper--header">
       <h1 class="logo">
         <a href="index.html">
-          <img src="/imgs/logo-rocketseat.svg" alt="Rocketeseat">
+          <img src="imgs/logo-rocketseat.svg" alt="Rocketeseat">
         </a>
       </h1>
       <nav class="contato">
@@ -27,6 +28,35 @@
    <section class="conteudo">
      <div class="wrapper">
        <h2>Conteúdos</h2>
+
+      <div class="conteudos__box">
+        <div class="conteudo-item" id="starter">
+           <img src="https://skylab.rocketseat.com.br/static/64c237ccff807c054339a62d53b4b402.svg" alt="Starter">
+           <h2 class="title_curso">Starter</h2>
+            <p class="qtd_modulos">5</p>
+            <span class="free">free</span>
+        </div>
+        <div class="conteudo-item" id="launchbase">
+          <img src="https://skylab.rocketseat.com.br/static/0828532024cb46921a6b5e941f8d788d.svg" alt="Launchbase">
+          <h2 class="title_curso">Launchbase</h2>
+           <p class="qtd_modulos">7</p>
+           <span class="free">Pago</span>
+        </div>
+        <div class="conteudo-item" id="gostack">
+          <img src="https://skylab.rocketseat.com.br/static/83a178a0653dab1d55e2ed7946465975.svg" alt="GoStack">
+          <h2 class="title_curso">GoStack</h2>
+           <p class="qtd_modulos">10</p>
+           <span class="free">Pago</span>
+        </div>
+      </div>
+      <div class="capaModal">
+        <span class="material-icons">
+          close
+          </span>
+        <div class="modal">
+          <iframe class="iframe" src="https://rocketseat.com.br/starter" frameborder="0"></iframe>
+        </div>
+      </div>
      </div>
    </section>
   </main>
@@ -44,5 +74,7 @@
       
     </div>
   </footer>
+
+  <script src="js/app.js"></script>
 </body>
 </html>
